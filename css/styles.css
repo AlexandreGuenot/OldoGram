@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid rgb(178, 177, 177);
+}
+header .logo {
+    width: 200px;
+    height: 125px;
+}
+header .profile {
+    height: 125px;
+    border-radius: 50%;
+}
